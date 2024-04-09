@@ -1,41 +1,13 @@
-# Website
+# Hello!
+This is the start of a new documentation site I'm building through **Docusaurus**, in hopes of streamlining the process of my face tracking addons. This is in its **very** early stages, so don't expect to find much here yet!
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## What can I find here?
+Honestly, not much. This is just a place where I can edit my code on-the-go, and make changes as products and technology release. Just making things a bit easier down the road!
 
-### Installation
+## Got Yems?
+Yep!
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Socials
+- [Official Website](https://hantnor.com)
+- [Discord](https://discord.gg/hantnor)
+- [Twitter](https://twitter.com/hantnor)
