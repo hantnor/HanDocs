@@ -5,7 +5,7 @@ This is the start of a new documentation site I'm building through **Docusaurus*
 Honestly, not much. This is just a place where I can edit my code on-the-go, and make changes as products and technology release. Just making things a bit easier down the road!
 
 ## Got Yems?
-Yep!
+Yep! Everything is listed in the links below. :)
 
 ### Socials
 - [Official Website](https://hantnor.com)
