@@ -27,4 +27,5 @@ For anything with **Face Tracking (FT)**, you need some prerequisite addons to m
 
 - The latest version of **Unity Editor**
 - VRChat Creator Companion (VCC)
-- A premade avatar base
+- My patcher, a full list of currently supported avatars can be found [here](https://hantnor.gumroad.com).
+- A premade avatar base. (If you are using my patcher, use one of the premade supported avatars in the above list!)
