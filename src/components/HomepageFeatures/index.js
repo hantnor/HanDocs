@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Face Tracking',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This page is mostly about Face Tracking work! Walkthroughs, tutorials, and all troubleshooting needs will be addressed here.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Avatar Assets',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        For non-FT users, I have a selection of funky trinkets and doodads to accesorize your avatar!
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'World and Public Updates',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A changelog will be regularly updated here with chanes to my world, and any public avatars I release!
       </>
     ),
   },
