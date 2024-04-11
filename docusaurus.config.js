@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hantnor.github.io',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ patchname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/HanDocs/',
@@ -25,6 +25,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
