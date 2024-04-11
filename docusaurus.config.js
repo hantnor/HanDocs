@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hantnor.github.io',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ patchname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/HanDocs/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hantnor', // Usually your GitHub org/user name.
-  projectName: 'CreationDocs', // Usually your repo name.
+  projectName: 'HanDocs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,7 +74,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/hantnor/handocs',
+            href: 'https://github.com/hantnor/HanDocs',
             label: 'GitHub',
             position: 'right',
           },
