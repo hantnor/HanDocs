@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 ## Important
-To access and download the latest version of the patcher [download it as a ZIP file here!](https://github.com/hantnor/FTPatcher).
+To access and download the latest version of the patcher. [Download it as a ZIP file here!](https://github.com/hantnor/FTPatcher)
 
 # Face Tracking Patcher
 Using "Batch" (.bat) files, showing proof of purchase, and TOS concerns are a thing of the past! With **FTPatcher**, you can include an in-editor pop-up window to easily patch edits to your model! No Unity experience is necessary for the recipient.
