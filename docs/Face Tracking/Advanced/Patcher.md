@@ -14,9 +14,13 @@ This is listed primarily for the use of **face tracking**, but this can be used 
 # Set-up:
  1. Create a patch file using **hdiffz.exe**: https://github.com/sisong/HDiffPatch
     - In a command prompt, use ```cd``` to route to the directory where **hdiffz.exe** is located.
+    ![CMD](./img/cmd1.png)
     - Run the following line in a command line:
  ```hdiffz.exe "NON-FT-Original.fbx" "FT-Edited.fbx" patch.bin``` 
+     ![CMD](./img/cmd2.png)
     - Both FBX files should be in the same directory as the hdiffz.exe executable. 
+        ![CMD](./img/cmd3.png)
+        <hr/>
        - The 'NON-FT-Original.fbx' file is the original FBX that was edited to have the Face Tracking blendshapes. 
        - The 'FT-Edited.fbx' file the edited FBX that has the FT blendshapes. This is the FBX that will be produced when the original FBX is patched.
        - 'patch.bin' stitches on anything **NON-FT-Original.fbx** doesn't have, that **FT-Edited.fbx** does
@@ -27,5 +31,5 @@ This is listed primarily for the use of **face tracking**, but this can be used 
  3. Configure the Orchestrator script to work with the FBX.
     - Rename the placeholder to the name of the fbx you are patching
     - You can search for '@Config' in the file to find all the places where things need to be adjusted for the model.
-    
-   ```Ctrl + F``` to find all instances of the placeholder, ```Ctrl + F2``` to edit all instances.
+    <hr/>
+   **Pro-Tip**: ```Ctrl + F``` to find all instances of the placeholder, ```Ctrl + F2``` to edit all instances.
