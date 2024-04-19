@@ -25,4 +25,7 @@ This is listed primarily for the use of **face tracking**, but this can be used 
     - The default directory for this template is ```FT-Patcher/FT-Root-Folder/```. which can be changed if you'd like. **Make sure you update Orchestrator.cs with the proper directory changes!**
  
  3. Configure the Orchestrator script to work with the FBX.
-    - [explanation on how to do that] (You can search for '@Config' in the file to find all the places where things need to be adjusted for the model.)
+    - Rename the placeholder to the name of the fbx you are patching
+    - You can search for '@Config' in the file to find all the places where things need to be adjusted for the model.
+    
+{```Ctrl + F``` to find all instances of the placeholder, ```Ctrl + F2``` to edit all instances}
