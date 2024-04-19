@@ -14,11 +14,11 @@ This may all be overwhelming for a first-timer, and that's completely okay! I wa
 - Parameters
   - These are the true/false statements, sliders, and specific defined data for your avatar! This can drive animations, **blendshapes**, and toggles!
 - Blendshapes/Shape Keys
-  - These are specific sliders (0-100) that move specific polygons on your avatar. (eg. a "Jaw Open" blendshape will move the polygons to open your jaw)
+  - These are sliders that move specific polygons on your avatar (0-100). (eg. a "Jaw Open" blendshape would move the polygons to open your jaw)
 
 ## Getting Started
 
-For anything with **Face Tracking (FT)**, you need some prerequisite addons to make sure everything works as smoothly as possible. This can include (but not limited to):
+For anything with **Face Tracking (FT)**, you need some prerequisite add-ons to make everything work as smoothly as possible. This can include (but not limited to):
 
 - Face Tracking Templates
   - These are used in Unity, and are responsible for controlling **blendshapes** on your avatars. They come with the proper parameters for receiving **OSC** input, and preset animations to drive all the shapes on your model!
