@@ -18,3 +18,6 @@ sidebar_position: 4
 
 - Q: I have another version of FT on my avatar already, but I'd like to update it. How can I do this easily?
   - A: Usually, the regular Non-FT FBX would be repatched. If you'd prefer to have a direct patch from an older version to a newer one, contact me and we could work something out!
+
+- Q: I'd like to learn how to make my own face tracking. How can I do this?
+  - A: Tutorials like [these](https://youtu.be/MmfohWpL_SQ?si=ZJgJ3aS_9BCSGDhy) have been very helpful for me in the past!
