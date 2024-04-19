@@ -28,4 +28,4 @@ This is listed primarily for the use of **face tracking**, but this can be used 
     - Rename the placeholder to the name of the fbx you are patching
     - You can search for '@Config' in the file to find all the places where things need to be adjusted for the model.
     
-{```Ctrl + F``` to find all instances of the placeholder, ```Ctrl + F2``` to edit all instances}
+   ```Ctrl + F``` to find all instances of the placeholder, ```Ctrl + F2``` to edit all instances.
