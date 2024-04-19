@@ -75,8 +75,8 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/hantnor/HanDocs',
-            label: 'GitHub',
+            href: 'https://hantnor.com',
+            label: 'Main Site',
             position: 'right',
           },
         ],
