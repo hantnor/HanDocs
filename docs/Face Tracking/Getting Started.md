@@ -25,7 +25,7 @@ For anything with **Face Tracking (FT)**, you need some prerequisite add-ons to 
 - Parameter Mergers
   - This most notably refers to [**VRCFury**](https://vrcfury.com), a popular tool used to non-destructively automate and simplify the process of building avatars. 
 
-### What you'll need
+### <u>What you'll need</u>
 
 - The latest version of **Unity Editor** (as of writing this, it is [2022.3.6f1](https://unity.com/releases/editor/whats-new/2022.3.6) and the **VCC** will help with installation.)
 - VRChat Creator Companion (VCC), found [here](https://vrchat.com/download/vcc).
