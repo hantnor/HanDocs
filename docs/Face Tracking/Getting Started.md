@@ -23,7 +23,8 @@ For anything with **Face Tracking (FT)**, you need some prerequisite add-ons to 
 - Face Tracking Templates
   - These are used in Unity, and are responsible for controlling **blendshapes** on your avatars. They come with the proper parameters for receiving **OSC** input, and preset animations to drive all the shapes on your model!
 - Parameter Mergers
-  - This most notably refers to **VRCFury**, a popular tool used to automate and non-destructively automate the process of building avatars. 
+  - This most notably refers to [**VRCFury**](https://vrcfury.com), a popular tool used to non-destructively automate and simplify the process of building avatars. 
+
 ### What you'll need
 
 - The latest version of **Unity Editor** (as of writing this, it is [2022.3.6f1](https://unity.com/releases/editor/whats-new/2022.3.6) and the **VCC** will help with installation.)
