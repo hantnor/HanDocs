@@ -26,7 +26,7 @@ For anything with **Face Tracking (FT)**, you need some prerequisite addons to m
   - This most notably refers to **VRCFury**, a popular tool used to automate and non-destructively automate the process of building avatars. 
 ### What you'll need
 
-- The latest version of **Unity Editor**
-- VRChat Creator Companion (VCC)
-- My patcher, linked here. A full list of currently supported avatars can be found [here](https://hantnor.gumroad.com).
+- The latest version of **Unity Editor** (as of writing this, it is **2022.3.6f1**, and the **VCC** will help with installation.)
+- VRChat Creator Companion (VCC), found [here](https://vrchat.com/download/vcc).
+- My patcher, linked [here](https://github.com/hantnor/FTPatcher). A full list of currently supported avatars can be found [here](https://hantnor.gumroad.com).
 - A premade avatar base. (If you are using my patcher, use one of the premade supported avatars in the above list!)
