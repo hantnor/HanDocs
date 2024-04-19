@@ -15,3 +15,6 @@ sidebar_position: 4
 
 - Q: I have a modified FBX I'd like to add face tracking to. Is this possible?
   - A: Yes, but it requires some **Blender** experience. You may find value in addons like [**Mesh Data Transfer**](https://mmemoli.gumroad.com/l/tOKEh) to ease this process along!
+
+- Q: I have another version of FT on my avatar already, but I'd like to update it. How can I do this easily?
+  - A: Usually, the regular Non-FT FBX would be repatched. If you'd prefer to have a direct patch from an older version to a newer one, contact me and we could work something out!
