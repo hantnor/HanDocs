@@ -12,7 +12,7 @@ This may all be overwhelming for a first-timer, and that's completely okay! I wa
   - This stands for **Open Sound Control**. It's a protocol originally intended to allow communication between audio devices and controllers for musical performances, but has capabilities far beyond that! (s. VRChat Docs)
   - In short, this is the "messenger" between external programs and VRChat.
 - Parameters
-  - These are the true/false statements, sliders, and specific defined data for your avatar! This can drive animations, **blendshapes**, and toggles!
+  - These are the true/false statements, sliders, and specifically defined data for your avatar! This can drive animations, **blendshapes**, and toggles!
 - Blendshapes/Shape Keys
   - These are sliders that move specific polygons on your avatar (0-100). (eg. a "Jaw Open" blendshape would move the polygons to open your jaw)
 
@@ -28,6 +28,6 @@ For anything with **Face Tracking (FT)**, you need some prerequisite add-ons to 
 ### <u>What you'll need</u>
 
 - The latest version of **Unity Editor** (as of writing this, it is [2022.3.6f1](https://unity.com/releases/editor/whats-new/2022.3.6) and the **VCC** will help with installation.)
-- VRChat Creator Companion (VCC), found [here](https://vrchat.com/download/vcc).
-- My patcher, linked [here](https://github.com/hantnor/FTPatcher). A full list of currently supported avatars can be found [here](https://hantnor.gumroad.com).
+- [VRChat Creator Companion (VCC)](https://vrchat.com/download/vcc)
+- My [patcher](https://github.com/hantnor/FTPatcher). (Full list of currently supported avatars [here](https://hantnor.gumroad.com).)
 - A premade avatar base. (If you are using my patcher, use one of the premade supported avatars in the above list!)
