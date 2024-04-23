@@ -72,10 +72,3 @@ Everything is neatly listed in order of most VRAM impact to least.
 ![Image](./img/suggestion.png)
 
 This tool will also suggest optimizations! It can take care of both **resolution** and **compression methods**.
-
-## Shaders (to be moved?)
-
-For PC-ready avatars choosing an optimized shader is going to serve as an excellent foundation. Popular shaders like **Liltoon**, **Mochie's Shaders**, and **Poiyomi Toon** work excellently.
-
-- If you are using **Poiyomi**, remember that it is a **robust** shader. For the cvapabilities it has, utilizing optimization features is a must! In-built features like **shader locking** come in super handy, disabling any features you may not use. Any features that you don't use, please be sure to **uncheck and disable** them. If an animated proprty is enabled but not used, it will add unnecessary load. Right-click these properties and uncheck the animated property.
-
