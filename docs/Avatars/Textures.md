@@ -42,6 +42,7 @@ Compression methods are a way to shorten the amount of data in an image. In all 
 
 4. Grayscale images that are entirely black, white, and gray (like masks and AO Maps) can be set to `Texture Type - Single Channel`, `Channel - Red`, `High Quality - BC4`.
     - Alternatively, you can use PC Override to set it to `BC4`.
+    - For **strictly black-or-white** masks, you can set these to a texture resolution of 512 or even 256!
 
 <hr/>
 
@@ -53,8 +54,6 @@ If you need it for reducing download size, you can utilize **crunch compression*
 
 - For **opaque albedo** textures, use **RGB Crunched DXT-1**.
 - For **transparent albedo** and normal map textures, use **RGBA Crunched DXT-5**.
-- For **greyscale images**, set the texture type to **Single Channel**, set the channel to **Red**, and compression format to **BC4**.
-    - For strictly **black-and-white** images, you can also set the resolution of these to **512** or **256**! 
 
 <hr/>
 
@@ -66,7 +65,7 @@ Using extra tools in your project may help streamline your texture optimization 
 ![Image](./img/window.png)
 
 - This avatar has **35** textures, and only takes up **66MB** of VRAM.
-    - *Example avatar courtesy of [Beanthusiast](https://)!*
+    - *Example avatar courtesy of [Beanthusiast](https://linktr.ee/beanthusiast)!*
 
 Everything is neatly listed in order of most VRAM impact to least.
 

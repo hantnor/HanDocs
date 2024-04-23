@@ -9,3 +9,5 @@ These are the people who have helped develop my documentation for this website. 
 > [**hantnor**](https://hantnor.com/) - Main writer.
 > 
 > [**Juno**](https://stoopidcatstudios.com/) - Writer.
+>
+>[**Beanthusiast**](https://linktr.ee/beanthusiast) - Knowledge source (Textures).
