@@ -14,4 +14,8 @@ Optimizing polygon count, even for worlds, is a crucial step to making your avat
 
 ### Polytool
 
-Polytool is a **paid** Unity addon by [**Markoragon**](https://) to simplify the process of optimizing a model. It can easily cover complex optimization steps like **decimation**, **atlassing**, and **
+Polytool is a **paid** Unity addon by [**Markoragon**](https://markcreator.gumroad.com/l/Polytool) to simplify the process of optimizing a model. It can easily cover complex optimization steps like **decimation**, **atlassing**, and **bone count**.
+
+### Manual Decimation
+
+If you prefer to have more direct control over what polygons are removed, you can do this manually in **Blender**. 

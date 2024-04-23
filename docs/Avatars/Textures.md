@@ -45,7 +45,7 @@ Compression methods are a way to shorten the amount of data in an image. In all 
 
 <hr/>
 
-### Crunch Compression
+### Crunch Compression 
 
 If you need it for reducing download size, you can utilize **crunch compression**. This makes a visibly "crunchy" texture at the tradeoff of file sizes. This isn't recommended if the quality of your textures is important. *This will **not** help your VRAM usage.*
 
@@ -74,7 +74,7 @@ Everything is neatly listed in order of most VRAM impact to least.
 
 This tool will also suggest optimizations! It can take care of both **resolution** and **compression methods**.
 
-## Shaders
+## Shaders (to be moved?)
 
 For PC-ready avatars choosing an optimized shader is going to serve as an excellent foundation. Popular shaders like **Liltoon**, **Mochie's Shaders**, and **Poiyomi Toon** work excellently.
 
