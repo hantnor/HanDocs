@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Translate your site
 
-Let's translate `docs/intro.md` to French.
+Let's translate `docs/Intro.md` to French.
 
 ## Configure i18n
 
@@ -21,15 +21,15 @@ export default {
 
 ## Translate a doc
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+Copy the `docs/Intro.md` file to the `i18n/fr` folder:
 
 ```bash
 mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+cp docs/Intro.md i18n/fr/docusaurus-plugin-content-docs/current/Intro.md
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+Translate `i18n/fr/docusaurus-plugin-content-docs/current/Intro.md` in French.
 
 ## Start your localized site
 
