@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-title: Welcome!
+sidebar_label: Home
+title: Home
 ---
 
 ## Welcome!
@@ -14,3 +15,6 @@ I encourage you to explore [this](https://docs.vrcft.io/) amazing site too! It's
 
 ## [Han's Retreat](https://hantnor.github.io/HanDocs/docs/category/hans-retreat)
 The wonderous, mystical world of the Retreat. Any major updates to the world and its subsequent avatars will be documented here. 
+
+## [Avatar Optimization](https://hantnor.github.io/HanDocs/docs/Avatars/Optimization)
+Want to make your avatar perform better on any platform? Check some of the guides here for each component!

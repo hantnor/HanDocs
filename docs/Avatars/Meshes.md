@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 *High-poly? Low-poly? No problem!*
@@ -15,6 +15,10 @@ Optimizing polygon count, even for worlds, is a crucial step to making your avat
 ### Polytool
 
 Polytool is a **paid** Unity addon by [**Markoragon**](https://markcreator.gumroad.com/l/Polytool) to simplify the process of optimizing a model. It can easily cover complex optimization steps like **decimation**, **atlassing**, and **bone count**.
+
+### Tuxedo
+
+[Tuxedo](https://github.com/feilen/tuxedo-blender-plugin) is a tool that can assist with optimizing your mesh from within **Blender**. It's completely free, but requires Blender experience. It can decimate for you, too!
 
 ### Manual Decimation
 

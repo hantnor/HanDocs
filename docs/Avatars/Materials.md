@@ -27,6 +27,10 @@ Usually when rendering an object, it is **opaque**. To alleviate half of the pro
 
 Quest shaders like **Standard Lite** and **Toon Lit** have this property to ensure optimized performance on mobile platforms. For PC shaders like **Poiyomi Toon**, this setting can be turned off.
 
+### Material Swaps
+
+If you'd like multiple textures for your model, you can always implement **Material Swaps**! You don't have to worry about being locked into one material look if the material they're using can't be animated. This will not add extra slots, but it will increase your VRAM usage, even if they are not directly visible. Use this wisely!
+
 ## Methods
 
 <hr/>
@@ -36,6 +40,11 @@ Quest shaders like **Standard Lite** and **Toon Lit** have this property to ensu
 Polytool is a **paid** Unity addon by [**Markoragon**](https://markcreator.gumroad.com/l/Polytool) to simplify the process of optimizing materials. It can be used to merge and **atlas** textures and materials.
 - **Atlassing** refers to combining multiple textures onto one material, instead of having them split up among many materials.
 
+### Tuxedo
+
+[Tuxedo](https://github.com/feilen/tuxedo-blender-plugin) is a tool that can assist with optimizing your materials from within **Blender**. It's completely free, but requires Blender experience. It can redo the UV maps to be combined, and bake the textures from the old UV to the new UV.
+
 ### Manual Atlassing
 
-If you prefer to have more direct control over what polygons are removed, you can do this manually in **Blender**. (documentation on this through Beanthusiast TBA)
+If you prefer to have more direct control over what polygons are removed, you can do this manually in **Blender**. 
+- This can be done within the **UV Editor**, but it takes time and some precision. The texture itself will need to be done outside Blender in an image editor.
