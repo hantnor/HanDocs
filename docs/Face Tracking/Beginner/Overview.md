@@ -8,8 +8,12 @@ In others, you may run into a Unity package with a premade patcher that runs thr
 
 With this new solution, it will solve **all** of this!
 
-### How does this work?
+### What does this solution look like?
 
 An in-Unity editor window appears when you first import the package, and it's a one-click solution to adding face tracking to any avatar!* 
+
+### How does it work?
+
+The package uses an Orchestrator system, in which all the processing happens in nthe background. As soon as the user clicks **Patch**, the 
 
 Ready to start patching your model? Hit the **Next** button below!
