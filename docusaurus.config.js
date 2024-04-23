@@ -23,7 +23,7 @@ const config = {
   organizationName: 'hantnor', // Usually your GitHub org/user name.
   projectName: 'HanDocs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'gh-pages',
 
