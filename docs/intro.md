@@ -12,4 +12,4 @@ This site will serve as a reference point for troubleshooting, and is a simplifi
 I encourage you to explore [this](https://docs.vrcft.io/) amazing site too! It's very informational.
 
 ## [Han's Retreat](https://hantnor.github.io/HanDocs/docs/category/hans-retreat)
-The wonderous, mystical world of the Retreat. Any major updates to the world and its subsequent avatars will be documented here.
+The wonderous, mystical world of the Retreat. Any major updates to the world and its subsequent avatars will be documented here. 
