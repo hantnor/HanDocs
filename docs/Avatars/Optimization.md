@@ -9,10 +9,6 @@ This is the workflow I take to ensure an optimized avatar nearly every time. Fro
 
 *Below sections to be separated to their own pages*
 
-### Textures
-
-Textures are an essential part of what makes or breaks an avatar. They can be realistic, toony, or somewhere in between.
-
 ### Meshes
 
 (Info about manual decimation, Polytool, mesh compression)
