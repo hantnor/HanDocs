@@ -4,6 +4,8 @@ sidebar_position: 5
 
 *Hey, I can't see your avatar! You're a stick of butter!*
 
+On average, 60% of players use standalone Quest for VRChat.<sup>[1](https://metrics.vrchat.community/?orgId=1&refresh=30s)</sup> Most of the players they see are unable to be fully displayed, since most avatars are **PC-Only**. Let's make your model acccessible for everyone!
+
 ## Quest Guide
 ### Setup
 
