@@ -11,3 +11,5 @@ These are the people who have helped develop my documentation for this website. 
 > [**Juno**](https://stoopidcatstudios.com/) - Writer.
 >
 >[**Beanthusiast**](https://linktr.ee/beanthusiast) - Knowledge source (Textures).
+>
+>[**Aurelian**](https://aurelianborealis.wixsite.com/aureliancommissions) - Knowledge source (Quest Guide)

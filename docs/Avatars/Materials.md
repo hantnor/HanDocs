@@ -35,9 +35,9 @@ If you'd like multiple textures for your model, you can always implement **Mater
 
 <hr/>
 
-### Polytool
+### [Polytool](https://markcreator.gumroad.com/l/Polytool)
 
-Polytool is a **paid** Unity addon by [**Markoragon**](https://markcreator.gumroad.com/l/Polytool) to simplify the process of optimizing materials. It can be used to merge and **atlas** textures and materials.
+Polytool is a **paid** Unity addon by **Markoragon** to simplify the process of optimizing materials. It can be used to merge and **atlas** textures and materials.
 - **Atlassing** refers to combining multiple textures onto one material, instead of having them split up among many materials.
 
 ### Tuxedo
