@@ -19,6 +19,7 @@ This is listed primarily for the use of **face tracking**, but this can be used 
  ```hdiffz.exe "NON-FT-Original.fbx" "FT-Edited.fbx" patch.bin``` 
      ![CMD](./img/cmd2.png)
     - Both FBX files should be in the same directory as the hdiffz.exe executable. 
+    
         ![CMD](./img/cmd3.png)
         <hr/>
        - The 'NON-FT-Original.fbx' file is the original FBX that was edited to have the Face Tracking blendshapes. 
