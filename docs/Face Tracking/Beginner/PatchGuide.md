@@ -10,10 +10,13 @@ sidebar_position: 2
 
 ### 2. Patch!
 - If importing was successful, a window *should* appear automatically. If not, you can route to **Tools -> Han's Creations -> (Model Name) - FT Patcher**.
+
 ![Image](./img/directory.png)
 ![Image](./img/patcherwindow.png)
-    - Into the **(Model) FBX** slot, you can input your unedited FBX here! The patcher will most likely specify what model to put in, and have a model thrown in already. In most cases, this will work on its own. If you have a separate directory for the base model, you can manually input the model into this slot.
-    - Once the field is filled, you can press the big **Patch** button, and it should patch in just a couple moments!
+
+- Into the **(Model) FBX** slot, you can input your unedited FBX here! The patcher will most likely specify what model to put in, and have a model thrown in already. In most cases, this will work on its own. If you have a separate directory for the base model, you can manually input the model into this slot.
+- Once the field is filled, you can press the big **Patch** button, and it should patch in just a couple moments!
+    
     ![Image](./img/success.png)
     <hr/>
 
