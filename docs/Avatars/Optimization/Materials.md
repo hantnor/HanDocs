@@ -17,6 +17,8 @@ For any avatar, choosing an optimized shader is going to serve as an excellent f
 
 - If you are using **Poiyomi**, remember that it is a **robust** shader. For the capabilities it has, utilizing optimization features is a must! In-built features like **shader locking** come in super handy, disabling any features you may not use. Any features that you don't use, please be sure to **uncheck and disable** them. If an animated proprty is enabled but not used, it will add unnecessary load. Right-click these properties and uncheck the animated property.
 
+    - When using Poiyomi's Shaders, it **auto-locks** upon upload. No need to hit the `Lock` button every time!
+
 ### Culling
 
 *Why can I see through one side of a wall?!*
