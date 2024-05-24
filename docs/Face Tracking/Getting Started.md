@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+## How is your face moving like that?
+
+If you do want to use face tracking in VR, you do need a compatible **headset**! For my setup, I use the **Quest Pro**. (Thankfully, I made a guide [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Beginner/Quest%20Pro%20Setup)!)
+
 ## Blendshapes, OSC, What's going on?!
 
 This may all be overwhelming for a first-timer, and that's completely okay! I was in the same boat when I first got my headset, and I had slammed my head onto my desk trying to understand it all. Here's a rundown of some common terms you may run into, whether they're here or elsewhere:

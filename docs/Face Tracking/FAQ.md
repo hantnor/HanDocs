@@ -4,6 +4,9 @@ sidebar_position: 4
 
 # FAQ
 
+- Q: What headset do you use for FT? How can I do it?
+  - A: I use the **Quest Pro**! Since I've personally helped over 20 people wit their headsets (phew), I wrote a guide [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Beginner/Quest%20Pro%20Setup)!
+
 - Q: An error occured in my patcher. How do I fix this?
   - A: Visit [Troubleshooting](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Troubleshooting). If you don't find your solution there, make a support ticket in my [Discord](https://discord.gg/hantnor) server!
 
