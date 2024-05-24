@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Quest Pro Setup
 
-*Disclaimer - I am not affiliated with Meta, Facebook, or any related companies. I merely just enjoy thhe product!*
+*Disclaimer - I am not affiliated with Meta, Facebook, or any related companies. I merely just enjoy the product!*
 
 ## A Pocket Guide!
 
