@@ -34,6 +34,7 @@ If you can't progress onto [this](https://hantnor.github.io/HanDocs/docs/Face%20
     <summary>VRCFury Disclaimers</summary>
 
 ![Image](./img/disclaimer.png)
+
 If you import your VRCFury prefab onto your avatar and you get these messages, **disregard them**! 9 times out of 10, it's benign. 
 
 If it doesn't work, try any of these potential fixes:
