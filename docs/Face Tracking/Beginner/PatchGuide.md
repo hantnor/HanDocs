@@ -30,3 +30,5 @@ sidebar_position: 2
     - This specific prefab takes up **162** parameter slots. At most, you can only spend **94** parameter slots. If your number is higher than this, you need to remove some toggles!
 
 ### You're done! You can now upload.
+
+*Ran into an issue? Troubleshoot [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Troubleshooting)!*
