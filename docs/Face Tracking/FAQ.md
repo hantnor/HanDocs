@@ -5,7 +5,7 @@ sidebar_position: 4
 # FAQ
 
 - Q: What headset do you use for FT? How can I do it?
-  - A: I use the **Quest Pro**! Since I've personally helped over 20 people wit their headsets (phew), I wrote a guide [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Beginner/Quest%20Pro%20Setup)!
+  - A: I use the **Quest Pro**! Since I've personally helped over 30 people with their headsets (phew), I wrote a guide [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Beginner/Quest%20Pro%20Setup)!
 
 - Q: An error occured in my patcher. How do I fix this?
   - A: Visit [Troubleshooting](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Troubleshooting). If you don't find your solution there, make a support ticket in my [Discord](https://discord.gg/hantnor) server!
@@ -16,8 +16,8 @@ sidebar_position: 4
 - Q: I made a model, and I'd like to include your FT work as part of the base package. Can I do this?
   - A: Yes, and commercial rates do apply. [Contact](https://hantnor.com) me for details!
 
-- Q: I have a modified FBX I'd like to add face tracking to. Is this possible?
-  - A: Yes, but it requires some **Blender** experience. You may find value in addons like [**Mesh Data Transfer**](https://mmemoli.gumroad.com/l/tOKEh) to ease this process along!
+- Q: I have a modified FBX I'd like to add similar face tracking to. Is this possible?
+  - A: Yes, but it requires some **Blender** experience. You may find value in addons like [**Mesh Data Transfer**](https://mmemoli.gumroad.com/l/tOKEh) to ease this process along! **A full guide is available [here](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Advanced/Mesh%20Data%20Transfer).**
 
 - Q: I have another version of FT on my avatar already, but I'd like to update it. How can I do this easily?
   - A: Usually, the regular Non-FT FBX would be repatched. If you'd prefer to have a direct patch from an older version to a newer one, contact me and we could work something out!
