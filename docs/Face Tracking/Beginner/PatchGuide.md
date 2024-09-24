@@ -20,6 +20,12 @@ sidebar_position: 2
     ![Image](./img/success.png)
     <hr/>
 
+<details>
+  <summary><strong>2025 Update</strong></summary>
+  
+  If your patcher has the **2025 Update** label on it, it comes with a premade scene that is ready to upload! If problems persist, bring these concerns to my Discord server linked at the bottom of this page.
+</details>
+
 ### 3. Add the FX
 - With my DLC, they work best with [**Adjerry's Face Tracking Prefabs**](https://github.com/Adjerry91/VRCFaceTracking-Templates), and can be imported easily. This also has a [**VCC listing**](https://adjerry91.github.io/VRCFaceTracking-Templates/) if you prefer!
 - Once it's imported, you can navigate here and import the **VRCFury - Unified Expressions** prefab.
