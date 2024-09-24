@@ -134,7 +134,7 @@ To be addressed.
 
 ## Testing Your Blendshapes
 
-After creating your blendshapes, it's always important to test them to make sure they work as you expect. \o/
+After creating your blendshapes, it's always important to test them to make sure they work as you expect. You can test with an upload to VRChat, but there are a couple of other alternatives if you prefer to test locally. \o/
 
 <details>
   <summary><strong>Option 1: Testing in Blender using VRCFT-OSC-Receiver</strong></summary>
