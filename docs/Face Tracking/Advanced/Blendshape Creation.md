@@ -31,7 +31,7 @@ In your project, make sure you have the following:
 
 #### 1. Model Cleanup
 
-- **Make sure your model is symmetrical.** In **Edit Mode**, enable **X-Mirror** in the **Options** panel under **Mesh Options**. You can also enable **X-Mirror** by clicking the **X-Mirror** button in the toolbar.
+- **Make sure your model is symmetrical.** In **Edit Mode**, enable **X-Mirror** in the upper-right of your viewport.
 - Use `G` (the shortcut for the Grab/Move tool) to move the mesh. The mesh should move symmetrically and not have any stray vertices splitting from either side. If you notice stray vertices moving independently, you can use the **Snap to Symmetry** tool to symmetrize each side.
 - Ensure all blendshapes are disabled when checking for symmetry to avoid misleading deformations.
 
@@ -53,11 +53,14 @@ Refer to the [Unified Expressions References](https://docs.vrcft.io/docs/tutoria
 - **Blendshape Workflow**
   1. Click the **+** button next to the blendshape list to add a new blendshape.
   2. Press `O` on your keyboard to turn on proportional editing, or click the **Proportional Editing** icon at the top of the viewport.
+  
   ![Image](./img4/Demo2.png)
+  
      - **Tip:** Enable **Connected Only** in the proportional editing options to affect only connected vertices.
   3. **Select the vertices you want to modify.** You can use tools like **Box Select (`B`)** or **Circle Select (`C`)** for efficiency.
   4. Press `G` to move (grab) the vertices, `R` to rotate them, or `S` to scale them as needed.
   5. **Use your mouse scroll wheel to adjust the influence radius of proportional editing.** Scrolling up decreases the area, while scrolling down increases it.
+  
   ![Image](./img4/DemoGIF4.gif)
 
 ##### Additional Tips
@@ -66,12 +69,14 @@ Refer to the [Unified Expressions References](https://docs.vrcft.io/docs/tutoria
   - To prevent certain faces or vertices from being influenced, you can hide them:
     - Press `H` to hide selected faces or vertices.
     - Press `Alt + H` to unhide them.
+    
     ![Image](./img4/DemoGIF3.gif)
 
 - **Axis Constraints**
   - To move or rotate along a specific axis, use these shortcuts:
     - After initiating a move, rotate, or scale action, press `X`, `Y`, or `Z` to lock the transformation to the corresponding axis.
     - Hold `Shift + X`, `Shift + Y`, or `Shift + Z` to exclude an axis, restricting the transformation to the other two axes.
+    
     ![Image](./img4/DemoGIF2.gif)
 
 </details>
