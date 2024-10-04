@@ -1,8 +1,8 @@
 # Hello!
-This is the start of a new documentation site I'm building through **Docusaurus**, in hopes of streamlining the process of my face tracking addons. This is in its **very** early stages, so don't expect to find much here yet!
+This is the start of a new documentation site I'm building through **Docusaurus**, in hopes of streamlining the process of my face tracking addons. There's now quite a bit to find here, but if there's something you'd like to see added, **let me know**!
 
 ## What can I find here?
-Honestly, not much. This is just a place where I can edit my code on-the-go, and make changes as products and technology release. Just making things a bit easier down the road!
+How to make FT, make your FT better, updates to my main world (**Han's Retreat**), among other cool things! Feel free to puruse around. :)
 
 ## Got Yems?
 Yep! Everything is listed in the links below. :)
