@@ -32,8 +32,12 @@ In your project, make sure you have the following:
 #### 1. Model Cleanup
 
 - **Make sure your model is symmetrical.** In **Edit Mode**, enable **X-Mirror** in the **Options** panel under **Mesh Options**. You can also enable **X-Mirror** by clicking the **X-Mirror** button in the toolbar.
-- Use `G` (the shortcut for the Grab/Move tool) to move the mesh. The mesh should move symmetrically and not have any stray vertices splitting from either side. If you notice stray vertices moving independently, you can use the **Merge by Distance** tool to weld them together.
+- Use `G` (the shortcut for the Grab/Move tool) to move the mesh. The mesh should move symmetrically and not have any stray vertices splitting from either side. If you notice stray vertices moving independently, you can use the **Snap to Symmetry** tool to symmetrize each side.
 - Ensure all blendshapes are disabled when checking for symmetry to avoid misleading deformations.
+
+![Image](./img4/DemoGIF1.gif)
+
+***If your model cannot be symmetrized, use Method 2.***
 
 </details>
 
@@ -49,10 +53,12 @@ Refer to the [Unified Expressions References](https://docs.vrcft.io/docs/tutoria
 - **Blendshape Workflow**
   1. Click the **+** button next to the blendshape list to add a new blendshape.
   2. Press `O` on your keyboard to turn on proportional editing, or click the **Proportional Editing** icon at the top of the viewport.
+  ![Image](./img4/Demo2.png)
      - **Tip:** Enable **Connected Only** in the proportional editing options to affect only connected vertices.
   3. **Select the vertices you want to modify.** You can use tools like **Box Select (`B`)** or **Circle Select (`C`)** for efficiency.
   4. Press `G` to move (grab) the vertices, `R` to rotate them, or `S` to scale them as needed.
   5. **Use your mouse scroll wheel to adjust the influence radius of proportional editing.** Scrolling up decreases the area, while scrolling down increases it.
+  ![Image](./img4/DemoGIF4.gif)
 
 ##### Additional Tips
 
@@ -60,11 +66,13 @@ Refer to the [Unified Expressions References](https://docs.vrcft.io/docs/tutoria
   - To prevent certain faces or vertices from being influenced, you can hide them:
     - Press `H` to hide selected faces or vertices.
     - Press `Alt + H` to unhide them.
+    ![Image](./img4/DemoGIF3.gif)
 
 - **Axis Constraints**
   - To move or rotate along a specific axis, use these shortcuts:
     - After initiating a move, rotate, or scale action, press `X`, `Y`, or `Z` to lock the transformation to the corresponding axis.
     - Hold `Shift + X`, `Shift + Y`, or `Shift + Z` to exclude an axis, restricting the transformation to the other two axes.
+    ![Image](./img4/DemoGIF2.gif)
 
 </details>
 
@@ -76,6 +84,8 @@ Refer to the [Unified Expressions References](https://docs.vrcft.io/docs/tutoria
 #### 3. Creating Combined Shapes
 
 Some facial expressions require combined shapes to function correctly. For example, you may need a **BrowInnerUp** blendshape that affects both eyebrows symmetrically by combining **BrowInnerUpRight** and **BrowInnerUpLeft**.
+
+![Image](./img4/DemoGIF5.gif)
 
 Since you've already created all the uncombined (left and right) shapes, we can use these to make combined variants using **New Shape From Mix**:
 
@@ -103,19 +113,7 @@ Since you've already created all the uncombined (left and right) shapes, we can 
    - Move the slider of the new **BrowInnerUp** blendshape from **0.0** to **1.0**.
    - Verify that both eyebrows move up symmetrically as intended.
 
-**Tips:**
-
-- **Non-Destructive Editing**
-
-  - This method preserves your original left and right blendshapes, allowing you to adjust them individually in the future if needed.
-
-- **Applying to Other Combined Shapes**
-
   - You can use this same method to create other combined blendshapes, such as **EyeClosed**, **MouthSmile**, etc.
-
-- **Organizing Blendshapes**
-
-  - Consider grouping your blendshapes or using prefixes/suffixes to keep your blendshape list organized.
 
 </details>
 
@@ -133,6 +131,8 @@ To be addressed.
 ---
 
 ## Testing Your Blendshapes
+
+![Image](./img4/DemoGIF6.gif)
 
 After creating your blendshapes, it's always important to test them to make sure they work as you expect. You can test with an upload to VRChat, but there are a couple of other alternatives if you prefer to test locally. \o/
 
