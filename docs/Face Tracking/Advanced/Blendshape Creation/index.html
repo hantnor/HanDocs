@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.4.0">
 <title data-rh="true">Blendshape Creation | Han’s Creations</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://github.com/HanDocs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://github.com/HanDocs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://github.com/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Blendshape Creation | Han’s Creations"><meta data-rh="true" name="description" content="Note: This page is a WIP! Instructions here are subject to change. Use at your own risk."><meta data-rh="true" property="og:description" content="Note: This page is a WIP! Instructions here are subject to change. Use at your own risk."><link data-rh="true" rel="icon" href="/HanDocs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://github.com/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation"><link data-rh="true" rel="alternate" href="https://github.com/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation" hreflang="en"><link data-rh="true" rel="alternate" href="https://github.com/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation" hreflang="x-default"><link rel="stylesheet" href="/HanDocs/assets/css/styles.126cdc4b.css">
-<script src="/HanDocs/assets/js/runtime~main.967337b5.js" defer="defer"></script>
+<script src="/HanDocs/assets/js/runtime~main.37af5347.js" defer="defer"></script>
 <script src="/HanDocs/assets/js/main.37281fd2.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -37,20 +37,22 @@
 </ul>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Method 1 - Proportional Editing</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>1. Model Cleanup</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-model-cleanup">1. Model Cleanup<a class="hash-link" aria-label="Direct link to 1. Model Cleanup" title="Direct link to 1. Model Cleanup" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#1-model-cleanup">​</a></h4><ul>
 <li><strong>Make sure your model is symmetrical.</strong> In <strong>Edit Mode</strong>, enable <strong>X-Mirror</strong> in the <strong>Options</strong> panel under <strong>Mesh Options</strong>. You can also enable <strong>X-Mirror</strong> by clicking the <strong>X-Mirror</strong> button in the toolbar.</li>
-<li>Use <code>G</code> (the shortcut for the Grab/Move tool) to move the mesh. The mesh should move symmetrically and not have any stray vertices splitting from either side. If you notice stray vertices moving independently, you can use the <strong>Merge by Distance</strong> tool to weld them together.</li>
+<li>Use <code>G</code> (the shortcut for the Grab/Move tool) to move the mesh. The mesh should move symmetrically and not have any stray vertices splitting from either side. If you notice stray vertices moving independently, you can use the <strong>Snap to Symmetry</strong> tool to symmetrize each side.</li>
 <li>Ensure all blendshapes are disabled when checking for symmetry to avoid misleading deformations.</li>
-</ul></div></div></details><hr><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>2. Blendshape Creation</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-blendshape-creation">2. Blendshape Creation<a class="hash-link" aria-label="Direct link to 2. Blendshape Creation" title="Direct link to 2. Blendshape Creation" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#2-blendshape-creation">​</a></h4><p>Refer to the <a href="https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes#ue-base-shapes" target="_blank" rel="noopener noreferrer">Unified Expressions References</a> for detailed guidelines on the facial expressions you need to create. Start creating each shape, forgoing any changes to the eyeball rotation. Eye rotation is managed by the <strong>VRC Face Tracking (VRCFT)</strong> rotation driver, so you don&#x27;t need to adjust eyeball rotation unless your model lacks eye bones.</p><ul>
+</ul><p><img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF1-a3f20b2ae3dc5e91f8b8cbad484b555e.gif" width="600" height="338" class="img_ev3q"></p><p><em><strong>If your model cannot be symmetrized, use Method 2.</strong></em></p></div></div></details><hr><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>2. Blendshape Creation</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-blendshape-creation">2. Blendshape Creation<a class="hash-link" aria-label="Direct link to 2. Blendshape Creation" title="Direct link to 2. Blendshape Creation" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#2-blendshape-creation">​</a></h4><p>Refer to the <a href="https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes#ue-base-shapes" target="_blank" rel="noopener noreferrer">Unified Expressions References</a> for detailed guidelines on the facial expressions you need to create. Start creating each shape, forgoing any changes to the eyeball rotation. Eye rotation is managed by the <strong>VRC Face Tracking (VRCFT)</strong> rotation driver, so you don&#x27;t need to adjust eyeball rotation unless your model lacks eye bones.</p><ul>
 <li><strong>Blendshape Workflow</strong>
 <ol>
 <li>Click the <strong>+</strong> button next to the blendshape list to add a new blendshape.</li>
-<li>Press <code>O</code> on your keyboard to turn on proportional editing, or click the <strong>Proportional Editing</strong> icon at the top of the viewport.<!-- -->
+<li>Press <code>O</code> on your keyboard to turn on proportional editing, or click the <strong>Proportional Editing</strong> icon at the top of the viewport.
+<img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/Demo2-d0d22d4a526de2a062f6db86e897574f.png" width="603" height="147" class="img_ev3q">
 <ul>
 <li><strong>Tip:</strong> Enable <strong>Connected Only</strong> in the proportional editing options to affect only connected vertices.</li>
 </ul>
 </li>
 <li><strong>Select the vertices you want to modify.</strong> You can use tools like <strong>Box Select (<code>B</code>)</strong> or <strong>Circle Select (<code>C</code>)</strong> for efficiency.</li>
 <li>Press <code>G</code> to move (grab) the vertices, <code>R</code> to rotate them, or <code>S</code> to scale them as needed.</li>
-<li><strong>Use your mouse scroll wheel to adjust the influence radius of proportional editing.</strong> Scrolling up decreases the area, while scrolling down increases it.</li>
+<li><strong>Use your mouse scroll wheel to adjust the influence radius of proportional editing.</strong> Scrolling up decreases the area, while scrolling down increases it.
+<img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF4-d35a44975b2e2d1b424941b56c2ec535.gif" width="480" height="316" class="img_ev3q"></li>
 </ol>
 </li>
 </ul><h5 class="anchor anchorWithStickyNavbar_LWe7" id="additional-tips">Additional Tips<a class="hash-link" aria-label="Direct link to Additional Tips" title="Direct link to Additional Tips" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#additional-tips">​</a></h5><ul>
@@ -60,7 +62,8 @@
 <li>To prevent certain faces or vertices from being influenced, you can hide them:<!-- -->
 <ul>
 <li>Press <code>H</code> to hide selected faces or vertices.</li>
-<li>Press <code>Alt + H</code> to unhide them.</li>
+<li>Press <code>Alt + H</code> to unhide them.
+<img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF3-a05f7dcd81bf8fdfc67d118132837463.gif" width="480" height="335" class="img_ev3q"></li>
 </ul>
 </li>
 </ul>
@@ -71,12 +74,13 @@
 <li>To move or rotate along a specific axis, use these shortcuts:<!-- -->
 <ul>
 <li>After initiating a move, rotate, or scale action, press <code>X</code>, <code>Y</code>, or <code>Z</code> to lock the transformation to the corresponding axis.</li>
-<li>Hold <code>Shift + X</code>, <code>Shift + Y</code>, or <code>Shift + Z</code> to exclude an axis, restricting the transformation to the other two axes.</li>
+<li>Hold <code>Shift + X</code>, <code>Shift + Y</code>, or <code>Shift + Z</code> to exclude an axis, restricting the transformation to the other two axes.
+<img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF2-862ed5cffc7f46146beb058ef034a169.gif" width="480" height="342" class="img_ev3q"></li>
 </ul>
 </li>
 </ul>
 </li>
-</ul></div></div></details><hr><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>3. Creating Combined Shapes</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-creating-combined-shapes">3. Creating Combined Shapes<a class="hash-link" aria-label="Direct link to 3. Creating Combined Shapes" title="Direct link to 3. Creating Combined Shapes" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#3-creating-combined-shapes">​</a></h4><p>Some facial expressions require combined shapes to function correctly. For example, you may need a <strong>BrowInnerUp</strong> blendshape that affects both eyebrows symmetrically by combining <strong>BrowInnerUpRight</strong> and <strong>BrowInnerUpLeft</strong>.</p><p>Since you&#x27;ve already created all the uncombined (left and right) shapes, we can use these to make combined variants using <strong>New Shape From Mix</strong>:</p><ol>
+</ul></div></div></details><hr><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>3. Creating Combined Shapes</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-creating-combined-shapes">3. Creating Combined Shapes<a class="hash-link" aria-label="Direct link to 3. Creating Combined Shapes" title="Direct link to 3. Creating Combined Shapes" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#3-creating-combined-shapes">​</a></h4><p>Some facial expressions require combined shapes to function correctly. For example, you may need a <strong>BrowInnerUp</strong> blendshape that affects both eyebrows symmetrically by combining <strong>BrowInnerUpRight</strong> and <strong>BrowInnerUpLeft</strong>.</p><p><img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF5-ed87c4e6c8c1e84f0917592120ae2f84.gif" width="480" height="194" class="img_ev3q"></p><p>Since you&#x27;ve already created all the uncombined (left and right) shapes, we can use these to make combined variants using <strong>New Shape From Mix</strong>:</p><ol>
 <li>
 <p><strong>Set Blendshape Values in Object Mode</strong></p>
 <ul>
@@ -111,30 +115,14 @@
 <li>Verify that both eyebrows move up symmetrically as intended.</li>
 </ul>
 </li>
-</ol><p><strong>Tips:</strong></p><ul>
-<li>
-<p><strong>Non-Destructive Editing</strong></p>
-<ul>
-<li>This method preserves your original left and right blendshapes, allowing you to adjust them individually in the future if needed.</li>
-</ul>
-</li>
-<li>
-<p><strong>Applying to Other Combined Shapes</strong></p>
-<ul>
+</ol><ul>
 <li>You can use this same method to create other combined blendshapes, such as <strong>EyeClosed</strong>, <strong>MouthSmile</strong>, etc.</li>
-</ul>
-</li>
-<li>
-<p><strong>Organizing Blendshapes</strong></p>
-<ul>
-<li>Consider grouping your blendshapes or using prefixes/suffixes to keep your blendshape list organized.</li>
-</ul>
-</li>
 </ul></div></div></details></div></div></details>
 <hr>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Method 2 - Sculpt Mode</strong></summary><div><div class="collapsibleContent_i85q"><p>To be addressed.</p></div></div></details>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="testing-your-blendshapes">Testing Your Blendshapes<a class="hash-link" aria-label="Direct link to Testing Your Blendshapes" title="Direct link to Testing Your Blendshapes" href="/HanDocs/docs/Face Tracking/Advanced/Blendshape Creation#testing-your-blendshapes">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Image" src="/HanDocs/assets/images/DemoGIF6-201ef62cae83726f768b47575a006da9.gif" width="480" height="270" class="img_ev3q"></p>
 <p>After creating your blendshapes, it&#x27;s always important to test them to make sure they work as you expect. You can test with an upload to VRChat, but there are a couple of other alternatives if you prefer to test locally. \o/</p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Option 1: Testing in Blender using VRCFT-OSC-Receiver</strong></summary><div><div class="collapsibleContent_i85q"><p>This method allows you to test your blendshapes directly in Blender without exporting your model to Unity.</p><ol>
 <li>
