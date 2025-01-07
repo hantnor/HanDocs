@@ -28,7 +28,7 @@ sidebar_position: 2
 
 ### 3. Add the FX
 - With my DLC, they work best with [**Adjerry's Face Tracking Prefabs**](https://github.com/Adjerry91/VRCFaceTracking-Templates), and can be imported easily. This also has a [**VCC listing**](https://adjerry91.github.io/VRCFaceTracking-Templates/) if you prefer!
-- Once it's imported, you can navigate here and import the **VRCFury - Unified Expressions** prefab.
+- Once it's imported, you can navigate here and import the **VRCFury - Unified Expressions** prefab. **Do NOT import TongueSteps! This will not work as intended, even if you use a Vive Facial Tracker.**
 
     ![Image](./img/packagedir.png)
 

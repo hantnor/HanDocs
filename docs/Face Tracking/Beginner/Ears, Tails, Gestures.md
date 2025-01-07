@@ -56,7 +56,33 @@ Once all the animations are done, you can remove the FX layer from the Animator,
 
 ## Gesture Lock
 
-### This may be deprecated in the future. Use this for avatars released/updated before October 10, 2024[^1].
+<details>
+  <summary><strong>VRCFury Setup</strong></summary>
+  
+### 1. Dependencies
+
+You will need to have a couple of packages in your project in order for this to function properly. Grab the latest versions of:
+- [**VRCFury**](vcc://vpm/addRepo?url=https%3A%2F%2Fvcc.vrcfury.com)
+- [**VRCFT - Jerry's Templates**](https://adjerry91.github.io/VRCFaceTracking-Templates/)
+
+Import these into your project and ensure your avatar is set up with FT before moving on.
+
+### 2. Prefab Edits
+
+In the **Face Tracking - UE Blendshapes** prefab in your heirarchy, you should find a few sections of components. Double-click on the **Menu** field and remove the `Disable Hand Gestures` toggle from the menu.
+
+![Image](./img3/MENUGIF.gif)
+
+After this is done, navigate to `Packages/adjerry91.vrcft.templates/Prefabs/Sub` and add the included prefab to your avatar's heirarchy.
+
+![Image](./img3/TUT6.png) ![Image](./img3/TUT7.png)
+
+</details>
+
+<details>
+  <summary><strong>Legacy VRCFury Setup</strong></summary>
+  
+### This is now deprecated! Use this for avatars released/updated before October 10, 2024.
 
 Gesture Lock allows you to lock certain gestures or expressions, preventing them from being overridden by other animations or face tracking inputs. This is useful for maintaining specific poses or actions during your VRChat experience.
 
@@ -78,16 +104,16 @@ In the **Face Tracking - UE Blendshapes** prefab in your heirarchy, you should f
 After this is done, navigate to **Han's Creations -> FT Gesture Locker** and add the included prefab to your avatar's heirarchy.
 
 ![Image](./img3/TUT6.png) ![Image](./img3/TUT7.png)
+</details>
 
-### You're done!
+### You can now upload!
 
-[^1]: This is a projected date. Adjerry is planning on adding this as an integrated feature. For avatars that do not have the VRCFury scripts packed, it may prove difficult to update, and may inhibit the update. Will update as news comes out.
+If the above does not work (or you'd rather do the work yourself), manual instructions are below.
 
-<!-- Uncomment below if the VRCFury setup proves to be buggy. -->
-<!-- </details>
+<!-- Comment below if the Manual setup proves to be buggy. -->
 
 <details>
-<summary>Manual Setup</summary>
+<summary>**Manual Setup**</summary>
 
 This setup will be a bit more, well, manual. Intermediate Unity skills will be needed to conduct this, but is much more **customizable**. If functionality of other assets are not needed, head to the **VRCFury Setup** section!
 
@@ -105,25 +131,24 @@ Import these into your project and ensure your avatar is set up with FT before m
 
 If your avatar is set up completely, it should come with an FX layer. This can be found in the **Avatar Descriptor**. Double-click this!
 
-[image]
+![Image](./img4/TUT1.png)
 
 Head to the **Parameters** section and add a new Bool called `FacialExpressionsDisabled`.
 
-[image]
+![Image](./img4/TUT2.png) ![Image](./img4/TUT3.png)
 
-In your Animator section, your avatar should have two[^2] layers that control your avatar's expressions with gestures. Look for layers labeled **Left Hand** and **Right Hand**.
+In your Animator section, your avatar should have two[^1] layers that control your avatar's expressions with gestures. Look for layers labeled **Left Hand** and **Right Hand**.
 
-[image]
+![Image](./img4/TUT4.png)
 
 Each arrow leading to all of the states are what we're going to be focusing on. Select one, and add a new condition by hitting the **+** icon. This condition will only activate when `FacialExpressionsDisabled` is set to **False**.
 
-[image]
+![Image](./img4/TUT5.png) ![Image](./img4/TUT6.png)
 
-Repeat this step for every transition from an idle state to a gesture state. That can be tedious.
+Repeat this step for every transition from an idle/Any state to a gesture state. That can be tedious.
 
 ### You are done!
 
+[^1]: This can vary. Hobbert's avatars are usually split into **Eyes** and **Mouth** layers. It's also possible for avatars to be set up with gestures all condensed into one giant layer. Regardless of the case, repeat the steps for all expression layers found.
+
 </details>
-
-
-[^2]: This can vary. Hobbert's avatars are usually split into **Eyes** and **Mouth** layers. It's also possible for avatars to be set up with gestures all condensed into one giant layer.  -->

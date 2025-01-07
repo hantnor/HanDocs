@@ -14,14 +14,14 @@ It is, within reason! With two simillar models, you can transfer blendshapes fro
 
 <details>
    <summary>Prerequisites</summary>
-   - Experience in Blender 4.0
+   - Experience in Blender 4.3
    - Your **Source** and **Target** models
       - Source: Your model with FT blendshapes.
       - Target: Your new model that needs FT blendshapes transferred.
    - [Mesh Data Transfer](https://mmemoli.gumroad.com/l/tOKEh) addon
    </details>
 
-**I find that Blender 4.0 is more stable than the latest versions of the software. Unsure why, but it's something to keep an eye out for.**
+**Mesh Data Transfer now works with the latest version of Blender (4.3.2)! If problems persist, ensure you have the latest version of MDT. (2.0.6)**
 
 ## Project Setup
 1. Open Blender and set up a general project, deleting the objects it normally dumps. 

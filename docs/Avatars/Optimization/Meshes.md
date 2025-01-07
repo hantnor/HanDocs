@@ -12,9 +12,9 @@ Like textures, **meshes** also play a significant part in determining VRAM usage
 
 Optimizing polygon count, even for worlds, is a crucial step to making your avatar run well across multiple platforms. It may not be approachable for most, but I'll simplify some common approaches most 3D artists use when optimizing their models.
 
-### Polytool
+### [Polytool](https://markcreator.gumroad.com/l/Polytool)
 
-Polytool is a **paid** Unity addon by [**Markoragon**](https://markcreator.gumroad.com/l/Polytool) to simplify the process of optimizing a model. It can easily cover complex optimization steps like **decimation**, **atlassing**, and **bone count**.
+Polytool is a **paid** Unity addon by **Markoragon** to simplify the process of optimizing a model. It can easily cover complex optimization steps like **decimation**, **atlassing**, and **bone count**.
 
 ### Tuxedo
 
