@@ -53,6 +53,9 @@ If it doesn't work, try any of these potential fixes:
     <summary>Face frozen forward</summary>
     
 ### Cannot see FT working in-game
+<details>
+    <summary>Reset OSC Config</summary>
+    
 You may have to reset your **VRChat OSC Cache**. More info [here](https://docs.vrcft.io/docs/vrcft-software/vrcft#resetting-vrchat-osc-configs). 
 
 The reason you have to do this is because when you initially load an avatar, VRCFT makes a “mental note” if it has FT parameters or not, and then saves it. Once it has written down if it has/doesn’t have it, then it won’t recheck, even if the avatar is updated with FT later on.  
@@ -61,11 +64,32 @@ If you clear the history, then it will check again. It will rewrite the config t
 
 ***It's good practice to have a fresh first-time upload for a FT-compatible avatar!***
 </details>
+<details>
+    <summary>Path Rewrite Rules</summary>
 
+If your Face Tracking Debug Menu (`Expressions/Face Tracking/Debug`) is only displaying no movement of the Green circles alongside your face not responding to your headset tracking, you may need to implement **Path Rewrite Rules**.
+
+This is because VRCFT animations look for a mesh called **Body** by default. While 90% of avatars use this exact naming convention, there is a small percentage that utilize other names for the meshes that actually take care of the facial blendshapes.
+
+<hr></hr>
+
+Make a note of what your body mesh is called. You can find this in your **Heirarchy**. My mesh is named `Head`! (This was done to the model for demonstration purposes. The Lumistera is thankfully named properly!)
+
+![Image](./img/TUT7.png)
+
+In your Face Tracking - Unified Expressions prefab that already exists on your avatar, head to your Inspector and expand **Advanced Options**.
+
+Once opened, add a new Path Rewrite Rule. Here, set the first box to `Body`, and the second to your mesh's name - in this case, mine is named `Head`.
+
+![Image](./img/TUT8.gif)
+
+From here, save the prefab and upload. Should be good to go!
+</details>
+
+</details>
 <details>
     <summary>No FT menu in Expressions wheel</summary>
 
 You may have forgotten to include a template prefab into your avatar. Make sure you applied it!
 </details>
-
 </details>
