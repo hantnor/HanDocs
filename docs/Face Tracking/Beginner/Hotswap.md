@@ -69,6 +69,8 @@ If named correctly, you'll be given a confirmation prompt asking if you'd like t
 
 **You're done! Make sure to keep that backup on-hand, you'll never know when you may need it!**
 
+*If you followed this guide to hotswap an FT-compatible model, you can head to step 3 of [this guide](https://hantnor.github.io/HanDocs/docs/Face%20Tracking/Beginner/PatchGuide/#3-add-the-fx) to finish setup.*
+
 ## Pumkin's Avatar Tools
 
 <details>
