@@ -43,7 +43,7 @@ When this is clicked, a new folder should appear with your original file, your b
 
 <hr/>
 
-Now you can open a new window of File Explorer by pressing `Windows + E`. The new window should route to your new FBX you'd like to overwrite with.
+Now you can open a new window of File Explorer by pressing `Windows + E`. The new window should be used to route to your new FBX you'd like to overwrite with. This requires manual input.
 
 ![Image](./img2/directory2.png)
 
