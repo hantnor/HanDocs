@@ -135,6 +135,26 @@ To be addressed.
 
 ---
 
+## Exporting
+
+Some model creators may have different preference on how large the bones are, called **export scale**. This can be one of two possibilities:
+
+**All Local**: The default Blender setting. Bones are scaled by a factor of 100.
+
+**FBX Units Scale**: An alternate setting for exports. Bones are scaled by a factor of 1, easier for creating and managing physbones.
+
+### How can I tell what the model creator used?
+
+Typically, you can refer to a physbone radius to see what the scaling is set to. If a physbone is set to have many leasind 0's (eg. `0.0025`), then this is **All Local** since the physbones are being scaled down by a factor of 100. This isn't present in models with **FBX Units Scale** (eg. `0.25`).
+
+Alternatively, you can check the `Armature` scale if it's at 1 or 100. 1 for **FBX Units Scale**, and 100 for **All Local**.
+
+![Image](./img/scale1.png)
+
+Credit: Nicoreda
+
+---
+
 ## Testing Your Blendshapes
 
 ![Image](./img4/DemoGIF6.gif)
