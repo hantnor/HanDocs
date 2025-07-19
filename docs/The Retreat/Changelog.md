@@ -5,6 +5,19 @@ sidebar_position: 1
 # Changelog
 *Last Updated: 30 Dec 2024*
 
+## 1.2
+### Jul 19, 2025
+- Added 2 new creatures - **Wa** and **Spudge**! 
+  - If you have arachnophobia, Budge and Spudge can both be deactivated with the existing Budge toggle.
+- Added **Retreat Thingy** to public avatar pedestals.
+- Optimized image textures.
+
+## 1.1
+### Feb 23, 2025
+- Added a beta build of **LowPingy** to the FT avatar pedestals.
+  - This avatar will change over time! Use at your own discretion.
+- Updated OpenFlight prefab to v1.7.9.
+
 ## 1.0
 ### Dec 30, 2024
 The world has officially been renamed to **The Retreat**! This is a home for all, not just myself. Thank you all for your continuous support! It means the world to me.
