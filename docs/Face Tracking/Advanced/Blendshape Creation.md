@@ -4,6 +4,8 @@ sidebar_position: 2
 
 *Note: This page is a WIP! Instructions here are subject to change. Use at your own risk.*
 
+# [Official YouTube Tutorial](https://www.youtube.com/watch?v=E2kx4kSoo8Y)
+
 **Disclaimer:** Blender knowledge is **required** to create blendshapes for your model from scratch. If you do not know Blender, this guide will not help you.
 
 ## Recommended Blender Addons

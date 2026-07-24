@@ -2,8 +2,127 @@
 sidebar_position: 1
 ---
 
+# [World Link](https://vrchat.com/home/world/wrld_038479fd-f131-473b-a13c-5158f607b44e)
+
 # Changelog
-*Last Updated: 30 Dec 2024*
+*Last Updated: 24 Jul 2026*
+
+## 1.5.3
+### Jul 21, 2026
+- New creature! Its name is **Tee**!
+  - credit to Tameflowers on Bsky for their little creature sculptures, stumbled upon it on their page and i wanted one really badly
+  - SFX work and name by @zeraphredgaming 
+  - Model by me!
+
+## 1.5.2
+### May 27, 2026
+- New creature! 
+  - ...i dont know what this is. i saw it in a gif from a friend so i modeled it. im gonna see if i can come up with a name for it soon enough lmao
+- Updated group photos at spawn.
+- Fixed in-world menu raycast (hopefully).
+
+## 1.5.1
+### Mar 15, 2026
+- New eepy creature! The **A**!
+  - I dunno, calling it just... *a*
+-#   - idk its funny
+- FIxed a bug where the world panel was only accessible with the controller behind the canvas.
+- Performance improvements.
+
+## 1.5
+### Jan 23, 2026
+- Upgraded Marker Pro to v4.0
+  - Reduced pen count from 30 to 5
+  - Added live pen customization **in-game**!
+    - You can customize color, width, and smoothing.
+- *Actually* removed player pickup this time. 
+-#   - Cuddling is now more reliable than ever without sending your friends to the moon.
+
+## 1.4.7
+### Jan 14, 2026
+- Added a new Yem to the world (Design by @zestyvrc)
+- Added headphones to all creatures that did not previously have them.
+
+## 1.4.6
+### Jan 13, 2026
+- New Retreat avatar!
+  - **Nardoragon 3.1** (by @._.starglitch.3.).
+- Added **Crabdge** to assorted pickups. :CRAB_IS_DANCE: 
+- Deprecated player pickup.
+
+## 1.4.5
+### Nov 23, 2025
+- New Retreat avatars!
+  - **Rosune** (by @._.starglitch.3.), **Vulper**, **Pupper**.
+- Added 'sticky grab' pickup style to pens.
+
+### Known Bugs
+- Player pickup. I might deprecate this feature entirely if I can't figure this out by Dec 1
+
+## 1.4
+### Oct 26, 2025
+- Updated Worlds SDK to `3.9.1-beta.1`.
+- Migrated all pickups to use PhysBones (finally!)
+- Made pickup sounds synced between local and remote players.
+- Updated textures (minor).
+- General performance improvements.
+
+### Known Bugs
+- AudioLink is still deprecated to `1.4.0` due to Unity compilation errors.
+- Player Pickup toggle is **still** broken.
+
+## 1.3.5
+### Sep 28, 2025
+- Added new Retreat avatar: **Rosune**.
+
+Known bugs are still present and will be addressed when possible.
+
+## 1.3.2
+### Sep 9, 2025
+- Added new Retreat avatars: **Dragonet, Winterpaw Fem/Masc**.
+- Alphabetized avatar list. 
+- Added placeholder entries with upcoming avatars being made. 
+
+HUGE thanks to the @Beta Tester team for working so hard on these! Love you guys mwah
+
+### Known Bugs:
+- Pickup audio is local only.
+
+## 1.3
+### Sep 5, 2025
+- **Avatar Menu Overhaul**
+  - New UI buttons for the avatars! (they're quite clicky)
+  - Added new Retreat avatars: **Lumex, Tigerbee, Beaky Bird**
+  - Yes, this means the avatar cave area will be deprecated eventually. No new avatars will be added to that area.
+    - If you have any ideas of what to put in that space instead, let me know!
+- Changed spawn image to reflect more friends!
+- Upgraded SDK to 3.8.0
+  - CyanTrigger is deprecated, so I fully migrated to native U# scripts.
+
+### Known Bugs
+- Player Pickup toggle is still deprecated. If anyone could help, that would be wonderful! I'm at a loss with this one. :ralseiDead:
+- Up and down arrows in Avatar panel are swapped.
+
+### Hotfix
+- Up and down arrows are properly functioning.
+- Added **Maelstrorca** to Retreat avatar list.
+- Deprecated avatar room poster.
+  - Prepping to vacate the room, made a disclaimer.
+
+## 1.2.5
+### Aug 3, 2025
+- Altered sounds for Wa and Spudge.
+- Added disclaimer at spawn for spawning the menu.
+  - Was needed, most people didn't know there was a menu lol
+- **BETA**: Integration of avatar pedestals in menu.
+  - This removes the deprecated Menu Mirror tab.
+- Added **Retreat Gryphonet** to avatar pedestal listing.
+  - Thank you @._.starglitch.3. for the artistic contribution!
+
+### Known Bugs
+- Description panel still displays deprecated camera information.
+- When joining, players get redirected to the default home world.
+- Avatar pedestals appear reversed.
 
 ## 1.2
 ### Jul 19, 2025
@@ -104,7 +223,9 @@ The world has officially been renamed to **The Retreat**! This is a home for all
 - Added water material to troughs of water
 
 <hr></hr>
-# Older Versions (truncated)
+
+# Older Versions
+
 ## 0.5
 ### Dec 4, 2023 - Apr 18, 2024
 - Added FT avatars
@@ -125,6 +246,7 @@ The world has officially been renamed to **The Retreat**! This is a home for all
 - Toggle logic rewrite
 - Pedestal logic rewrite
 	- Is local only for time being
+
 ## 0.4
 ### Nov 6 - 21, 2023
 - Quest lighting rebake
@@ -145,6 +267,7 @@ The world has officially been renamed to **The Retreat**! This is a home for all
 - Oasis pond texture
 - OpenFlight integration
 	- Lite build, will upgrade if there's demand
+
 ## 0.3
 ### Nov 3, 2023
 - Tunnel network
@@ -155,18 +278,21 @@ The world has officially been renamed to **The Retreat**! This is a home for all
 - Improved paw logic
 - Oasis introduction
 	- Added swimming Yems
+
 ## 0.2
 ### Nov 2, 2023
 - Added mirror toggle
 - Paw scripting on pedestal
 - Quest compatibility
 - Music + SFX
+
 ## 0.1
 ### Nov 1, 2023
 - Added pedestal
 - Introduced lighting
 - Improved shaderwork
 - Added bench for pedestal (basic)
+
 ## 0.0
 ### Oct 2 - 30, 2023
 - Initial Sculpt

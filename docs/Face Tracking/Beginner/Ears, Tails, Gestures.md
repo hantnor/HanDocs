@@ -22,7 +22,7 @@ This can also be used to animate other parts, but ears are the most common.
 You will need to have a few packages in your project in order for this to function properly. Grab the latest versions of:
 - [**VRCFury**](vcc://vpm/addRepo?url=https%3A%2F%2Fvcc.vrcfury.com)
 - [**VRCFT - Jerry's Templates**](https://adjerry91.github.io/VRCFaceTracking-Templates/)
-- [**Adjerry91's Ear Tracking Package**](https://cdn.discordapp.com/attachments/1182444014113402921/1287465659185500231/FaceTrackingExtra_v1.3.unitypackage?ex=670025d5&is=66fed455&hm=5c87c50b1ccb9b54c6655186cfe46eeb5b1d512800e1710855dfd09651c319ec&)
+- [**Han's Face Tracking Deluxe**](https://cdn.discordapp.com/attachments/1214135919536513095/1409066882748776488/Hans_Creations_-_Face_Tracking_Extras_Deluxe.unitypackage?ex=6a65050c&is=6a63b38c&hm=72da6f489eb695281912e10a5535ad4bedd0be339ea90cdde109511ef856db16&)
 
 Import these into your project and ensure your avatar is set up with FT before moving on.
 
