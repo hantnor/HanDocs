@@ -21,11 +21,9 @@ Is used to drive many parameters from gesture, tracker state, and controller sta
 Can display heartrate (HR) to a physical object on an avatar.
 
 ## Unity Addons
-### [Dread's Scripts](https://github.com/Dreadrith/DreadScripts) - Dreadrith
-Many QoL tools for ease-of-use avatar creation in Unity.
 ### [Adjerry's Ear Tracking](https://cdn.discordapp.com/attachments/1182444014113402921/1287465659185500231/FaceTrackingExtra_v1.3.unitypackage?ex=670025d5&is=66fed455&hm=5c87c50b1ccb9b54c6655186cfe46eeb5b1d512800e1710855dfd09651c319ec&) - Adjerry91
 Easily add ear tracking and tongue dynamics to any avatar.
-### [Han's Gesture Lock](https://cdn.discordapp.com/attachments/1251803392548929546/1291642904938545253/hantnor_-_VRCFT_Gesture_Lock.unitypackage?ex=6700d7b2&is=66ff8632&hm=8a9acf833aaff3b0b369fbaf4e8b484a672f6342a8f14ee92c85ae836f5cafdc&) - hantnor
-Drag-n'-drop gesture lock component powered by VRCFury.
+### [Han's Face Tracking Extras](https://cdn.discordapp.com/attachments/1214135919536513095/1409066882748776488/Hans_Creations_-_Face_Tracking_Extras_Deluxe.unitypackage?ex=6a65050c&is=6a63b38c&hm=72da6f489eb695281912e10a5535ad4bedd0be339ea90cdde109511ef856db16&) - hantnor
+Drag-n'-drop face tracking suite powered by VRCFury.
 
 # If you have suggestions of cool resources, let me know!

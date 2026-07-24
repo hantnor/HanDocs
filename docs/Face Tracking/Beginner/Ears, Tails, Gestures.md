@@ -22,17 +22,17 @@ This can also be used to animate other parts, but ears are the most common.
 You will need to have a few packages in your project in order for this to function properly. Grab the latest versions of:
 - [**VRCFury**](vcc://vpm/addRepo?url=https%3A%2F%2Fvcc.vrcfury.com)
 - [**VRCFT - Jerry's Templates**](https://adjerry91.github.io/VRCFaceTracking-Templates/)
-- [**Han's Face Tracking Deluxe**](https://cdn.discordapp.com/attachments/1214135919536513095/1409066882748776488/Hans_Creations_-_Face_Tracking_Extras_Deluxe.unitypackage?ex=6a65050c&is=6a63b38c&hm=72da6f489eb695281912e10a5535ad4bedd0be339ea90cdde109511ef856db16&)
+- [**Han's Face Tracking Extras (Deluxe)**](https://cdn.discordapp.com/attachments/1214135919536513095/1409066882748776488/Hans_Creations_-_Face_Tracking_Extras_Deluxe.unitypackage?ex=6a65050c&is=6a63b38c&hm=72da6f489eb695281912e10a5535ad4bedd0be339ea90cdde109511ef856db16&)
 
 Import these into your project and ensure your avatar is set up with FT before moving on.
 
 ### 2. Animations
 
-After importing the Ear Tracking package into your project, you should find a folder in your Assets called **Face Tracking Extra**. In here, navigate to **Ear Movement**, and you'll find six animation files, a VRCFury prefab, an FX layer, and some other dependencies. 
+After importing the Ear Tracking package into your project, you should find a folder in your Assets called **Han's Creations**. In here, navigate to **Face Tracking Extra**, and you'll find several folders, a VRCFury prefab, and some other dependencies. 
 
 ![Image](./img3/TUT1.png)
 
-Drag the FX layer (`FX - Face Tracking - Ear`) into your avatar's **Animator** for easy testing.
+Drag the FX layer (`FX - Face Tracking - Ear`) from the Ear Movement folder into your avatar's **Animator** for easy testing.
 
 ![Image](./img3/TUT2.png)
 
@@ -46,7 +46,7 @@ Select one of these animations and hit the **Record** () icon. This will prepare
 
 ### 3. Installation
 
-Once all the animations are done, you can remove the FX layer from the Animator, and place the VRCFury prefab (`VRCFury - Face Tracking - Ears`) onto your avatar. This will add a toggle in your menu and do the heavy-lifting for your ears to move properly.
+Once all the animations are done, you can remove the FX layer from the Animator, and place the VRCFury prefab (`VRCFury - Face Tracking - Extra`) onto your avatar. This will add a toggle in your menu and do the heavy-lifting for your ears to move properly.
 
 ![Image](./img3/TUT5.png)
 
@@ -69,7 +69,7 @@ Import these into your project and ensure your avatar is set up with FT before m
 
 ### 2. Prefab Edits
 
-In the **Face Tracking - UE Blendshapes** prefab in your heirarchy, you should find a few sections of components. Double-click on the **Menu** field and remove the `Disable Hand Gestures` toggle from the menu.
+In the `VF_UE_VRCFT` prefab in your heirarchy, you should find a few sections of components. Double-click on the **Menu** field and remove the `Disable Hand Gestures` toggle from the menu.
 
 ![Image](./img3/MENUGIF.gif)
 
@@ -145,7 +145,7 @@ Each arrow leading to all of the states are what we're going to be focusing on. 
 
 ![Image](./img4/TUT5.png) ![Image](./img4/TUT6.png)
 
-Repeat this step for every transition from an idle/Any state to a gesture state. That can be tedious.
+Repeat this step for every transition from an idle/Any state to a gesture state. This can be tedious!
 
 ### You are done!
 

@@ -73,6 +73,7 @@ Everything is neatly listed in order of most VRAM impact to least.
 
 This tool will also suggest optimizations! It can take care of both **resolution** and **compression methods**.
 
+<hr/>
 Another tool that is growing in popularity is [Limitex's Avatar Compressor](https://github.com/Limitex/avatar-compressor). This is an automated tool that lives as a single component on the root of an avatar, and can dynamically lower texture resolution depending on complexity. This can be adjusted in strength globally or per texture.
 
 [Image soon!]

@@ -20,7 +20,7 @@ You will need to make sure your workflow can support the **Android Build Target*
 
 ### [VRCQuestTools](https://github.com/kurotu/VRCQuestTools)
 
-VRCQuestTools is a **free** Unity addon by ? to also simplify the process of Quest-compatibility. Unlike Polytool, it does **most** of the work for you. The more tedious and time consuming parts of making an avatar Quest-compatible are automated:
+VRCQuestTools is a **free** Unity addon by kurotu to also simplify the process of Quest-compatibility. Unlike Polytool, it does **most** of the work for you. The more tedious and time consuming parts of making an avatar Quest-compatible are automated:
 
 - Materials
 - Texture Resolution

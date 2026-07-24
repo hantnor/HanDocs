@@ -26,14 +26,14 @@ sidebar_position: 2
   If your patcher has the **2025 Update** label on it, it comes with a premade scene that is ready to upload! If problems persist, bring these concerns to my Discord server linked at the bottom of this page.
 </details>
 
-### 3. Add the FX
-- With my DLC, they work best with [**Adjerry's Face Tracking Prefabs**](https://github.com/Adjerry91/VRCFaceTracking-Templates), and can be imported easily. This also has a [**VCC listing**](https://adjerry91.github.io/VRCFaceTracking-Templates/) if you prefer!
-- Once it's imported, you can navigate here and import the **VRCFury - Unified Expressions** prefab. **Do NOT import TongueSteps! This will not work as intended, even if you use a Vive Facial Tracker.**
+### 3. Add FX
+- My DLCs work best with [**Adjerry's Face Tracking Prefabs**](https://github.com/Adjerry91/VRCFaceTracking-Templates), and can be imported easily. This also has a [**VCC listing**](https://adjerry91.github.io/VRCFaceTracking-Templates/) if you prefer!
+- Once imported, you can navigate here and import the `VF_UE_VRCFT` prefab. **Do NOT import TongueSteps! This will not work as intended, even if you use a Vive Facial Tracker.**
 
     ![Image](./img/packagedir.png)
 
 - Drag this prefab onto the root (name) of your avatar. Make sure you have enough parameter slots to account for all the FT parameters!
-    - This specific prefab takes up **162** parameter slots. At most, you can only spend **94** parameter slots. If your number is higher than this, you need to remove some toggles!
+    - This specific prefab takes up **167** parameter slots before VRCFury Parameter Compression. At most, you can only spend **89** parameter slots. If your number is higher than this, you need to remove some toggles.
 
 ### You're done! You can now upload.
 

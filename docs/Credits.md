@@ -12,4 +12,4 @@ These are the people who have helped develop my documentation for this website. 
 >
 >[**Beanthusiast**](https://linktr.ee/beanthusiast) - Knowledge source (Textures).
 >
->[**Aurelian**](https://aurelianborealis.wixsite.com/aureliancommissions) - Knowledge source (Quest Guide)
+>[**Aurelian**](https://aurelianborealis.wixsite.com/aureliancommissions) - Knowledge source (Quest Guide).
