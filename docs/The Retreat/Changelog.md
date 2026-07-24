@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# [World Link](https://vrchat.com/home/world/wrld_038479fd-f131-473b-a13c-5158f607b44e)
+# The Retreat
+
+## [World Link](https://vrchat.com/home/world/wrld_038479fd-f131-473b-a13c-5158f607b44e)
 
 # Changelog
 *Last Updated: 24 Jul 2026*
