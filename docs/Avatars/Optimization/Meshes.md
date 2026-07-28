@@ -23,3 +23,4 @@ Polytool is a **paid** Unity addon by **Markoragon** to simplify the process of 
 ### Manual Decimation
 
 If you prefer to have more direct control over what polygons are removed, you can do this manually in **Blender**. 
+(Tempted to write a tutorial on this down the line if it's wanted!)
