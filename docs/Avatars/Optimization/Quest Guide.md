@@ -25,7 +25,7 @@ VRCQuestTools is a **free** Unity addon by kurotu to also simplify the process o
 - Materials
 - Texture Resolution
 - Excess Physbone components/transforms
-- PC-Only Components (Lights, constraints, etc.)
+- PC-Only Components (Lights, Unity constraints, etc.)
 
 *(Suggestion by [Aurelian](https://aurelianborealis.wixsite.com/aureliancommissions)!)*
 
