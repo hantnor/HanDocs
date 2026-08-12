@@ -12,7 +12,7 @@ Also, psst, I'll be making a YouTube tutorial on this too x
 
 That being said though, enjoy what I have so far \o/
 
-### Disclaimer: Most of this is just personal notes right now, I'm making a framework lol
+### Disclaimer: Some of this is just personal notes right now, apologies for anything that's unclear haha
 
 With VRChat models becoming more diverse and popular to create from scratch, it creates a lot of market for clothing makers. People making comfy outfits, unique fashion ideas, or ways for groups and communities to express themselves. Most of the time, clothing options are tailored to a specific (popular) avatar, but there could be demand to add it to another popular base. What happens if you use a niche model that you know wouldn't be supported? This is what I hope my guide can help with!
 
